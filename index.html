@@ -31,6 +31,10 @@
       --text-dim: #5f594f;
       --serif: Georgia, "Times New Roman", serif;
       --sans: "Helvetica Neue", Arial, sans-serif;
+
+      /* Escala fluida: 16px hasta 1600px de ancho, crece hasta 24px en 4K. */
+      --fs: clamp(16px, 0.5vw + 8px, 24px);
+      --page-width: clamp(1440px, 88vw, 2800px);
     }
 
     * {
@@ -48,6 +52,7 @@
       background: var(--bg);
       color: var(--text);
       font-family: var(--serif);
+      font-size: var(--fs);
       line-height: 1.7;
       min-height: 100vh;
     }
@@ -93,13 +98,15 @@
     }
 
     .masthead {
-      width: min(1440px, 100%);
+      width: min(var(--page-width), 100%);
       margin: 0 auto;
       padding: 30px 38px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 36px;
+      border-bottom: 0;
+      background: transparent;
     }
 
     .user-identity {
@@ -180,13 +187,16 @@
     }
 
     .layout {
-      width: min(1440px, 100%);
+      width: min(var(--page-width), 100%);
       margin: 0 auto;
       padding: 38px;
       display: grid;
-      grid-template-columns: 215px minmax(0, 1fr) 205px;
+      grid-template-columns:
+        clamp(215px, 13vw, 400px)
+        minmax(0, 1fr)
+        clamp(205px, 12vw, 360px);
       align-items: start;
-      gap: 44px;
+      gap: clamp(44px, 2.6vw, 96px);
     }
 
     .sidebar {
@@ -648,7 +658,7 @@
     }
 
     .site-footer {
-      width: min(1440px, 100%);
+      width: min(var(--page-width), 100%);
       margin: 0 auto;
       padding: 22px 38px 32px;
       border-top: 1px solid var(--border);
@@ -785,6 +795,105 @@
       background: var(--surface);
     }
 
+    /* Pantallas grandes: tipografía, espaciados y avatar escalan con --fs. */
+    @media (min-width: 1600px) {
+      .masthead {
+        padding: calc(var(--fs) * 1.9) calc(var(--fs) * 2.4);
+      }
+
+      .avatar-frame {
+        width: calc(var(--fs) * 4.75);
+        height: calc(var(--fs) * 4.75);
+        flex-basis: calc(var(--fs) * 4.75);
+      }
+
+      .user-details h1 {
+        font-size: calc(var(--fs) * 1.95);
+      }
+
+      .user-details p {
+        font-size: calc(var(--fs) * 0.82);
+      }
+
+      .header-search {
+        width: min(calc(var(--fs) * 19), 30%);
+      }
+
+      .header-search input {
+        padding: calc(var(--fs) * 0.7) calc(var(--fs) * 0.9);
+        font-size: calc(var(--fs) * 0.75);
+      }
+
+      .layout {
+        padding: calc(var(--fs) * 2.4);
+      }
+
+      .sidebar-heading,
+      .rail-heading,
+      .breadcrumbs,
+      .page-path,
+      .site-footer,
+      .nav-count,
+      .pager small {
+        font-size: calc(var(--fs) * 0.65);
+      }
+
+      .nav-link {
+        font-size: calc(var(--fs) * 0.875);
+      }
+
+      .nav-field,
+      .page-path .meta-description {
+        font-size: calc(var(--fs) * 0.82);
+      }
+
+      #toc a {
+        font-size: calc(var(--fs) * 0.75);
+      }
+
+      #toc a.toc-h3,
+      .tag {
+        font-size: calc(var(--fs) * 0.7);
+      }
+
+      .listing-detail {
+        font-size: calc(var(--fs) * 0.75);
+      }
+
+      #article .listing li > a,
+      #article ul.backlinks li > a {
+        font-size: var(--fs);
+      }
+
+      #article h1 {
+        font-size: calc(var(--fs) * 2.65);
+      }
+
+      #article h2 {
+        font-size: calc(var(--fs) * 1.56);
+      }
+
+      #article h3 {
+        font-size: calc(var(--fs) * 1.2);
+      }
+
+      #article h4 {
+        font-size: var(--fs);
+      }
+
+      #article table {
+        font-size: calc(var(--fs) * 0.82);
+      }
+
+      .search-result strong {
+        font-size: calc(var(--fs) * 0.875);
+      }
+
+      #search-results {
+        width: min(calc(var(--fs) * 25), 90vw);
+      }
+    }
+
     @media (max-width: 1100px) {
       .layout {
         grid-template-columns: 185px minmax(0, 1fr);
@@ -913,12 +1022,11 @@
   <div class="noise" aria-hidden="true"></div>
 
   <header class="site-header">
+    <div class="header-center-image">
+      <img src="assets/buttons/6.jpg" alt="" aria-hidden="true">
+    </div>
+
     <div class="masthead">
-
-
-      <div class="header-center-image">
-  <img src="assets/buttons/6.jpg" alt="Header artwork">
-</div>
 
       <div class="user-identity">
         <div class="avatar-frame">
