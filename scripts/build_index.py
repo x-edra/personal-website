@@ -286,7 +286,6 @@ def build():
     wiki = {
         'title': str(site_meta.get('site_title') or DEFAULT_SITE_TITLE),
         'description': str(site_meta.get('site_description') or DEFAULT_SITE_DESCRIPTION),
-        'generated': datetime.datetime.now().isoformat(timespec='seconds'),
         'pages': ordered,
     }
 
