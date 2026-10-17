@@ -1,0 +1,199 @@
+{
+ "title": "The Void",
+ "description": "A personal archive of ideas, research, projects, and references.",
+ "generated": "2026-10-17T15:14:13",
+ "pages": [
+  {
+   "id": "",
+   "kind": "home",
+   "title": "Home",
+   "description": "A collection of thoughts, studies, and works.",
+   "file": "docs/index.md",
+   "parent": null,
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "2026-10-17",
+   "words": 302,
+   "aliases": [
+    "home",
+    "inicio"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": [
+    "welcome!",
+    "how to explore",
+    "navigation"
+   ]
+  },
+  {
+   "id": "projects",
+   "kind": "section",
+   "title": "Projects",
+   "description": "Projects, experiments, and how they were built.",
+   "file": "docs/projects/index.md",
+   "parent": "",
+   "order": 2,
+   "tags": [],
+   "status": "",
+   "updated": "2026-10-17",
+   "words": 59,
+   "aliases": [
+    "projects"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": [
+    "En curso",
+    "Plantilla recomendada",
+    "Objetivo",
+    "Diseño",
+    "Tareas",
+    "Evidencias y resultados"
+   ]
+  },
+  {
+   "id": "study",
+   "kind": "section",
+   "title": "Study",
+   "description": "Notes, concepts, research, and references.",
+   "file": "docs/study/index.md",
+   "parent": "",
+   "order": 1,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-17",
+   "words": 0,
+   "aliases": [
+    "study"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/game-theory",
+   "kind": "field",
+   "title": "Game Theory",
+   "description": "The study of agents and their choices.",
+   "file": "docs/study/game-theory/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "2026-10-17",
+   "words": 192,
+   "aliases": [
+    "game-theory"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": [
+    "Teoría de juegos: más allá del modelamiento económico.",
+    "Introducción",
+    "Fundamentos formales",
+    "Racionalidad, preferencias y objetivos",
+    "Estrategias e interacción",
+    "Aplicaciones sobre dominios técnicos",
+    "Alcances y limitaciones",
+    "Conclusiones"
+   ]
+  },
+  {
+   "id": "study/game-theory/contract-theory",
+   "kind": "note",
+   "title": "Contract Theory",
+   "parent": "study/game-theory",
+   "aliases": [
+    "contract-theory"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/game-theory/contract-theory.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-17",
+   "words": 0,
+   "headings": []
+  },
+  {
+   "id": "study/game-theory/dynamical-stochastic-learning",
+   "kind": "note",
+   "title": "Dynamical Stochastic Learning",
+   "parent": "study/game-theory",
+   "aliases": [
+    "dynamical-stochastic-learning"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/game-theory/dynamical-stochastic-learning.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-17",
+   "words": 0,
+   "headings": []
+  },
+  {
+   "id": "study/game-theory/matching-theory",
+   "kind": "note",
+   "title": "Matching Theory",
+   "parent": "study/game-theory",
+   "aliases": [
+    "matching-theory"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/game-theory/matching-theory.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-17",
+   "words": 0,
+   "headings": []
+  },
+  {
+   "id": "study/game-theory/prospect-theory",
+   "kind": "note",
+   "title": "Prospect Theory",
+   "parent": "study/game-theory",
+   "aliases": [
+    "prospect-theory"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/game-theory/prospect-theory.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-17",
+   "words": 0,
+   "headings": []
+  },
+  {
+   "id": "study/game-theory/social-choice-theory",
+   "kind": "note",
+   "title": "Social Choice Theory",
+   "parent": "study/game-theory",
+   "aliases": [
+    "social-choice-theory"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/game-theory/social-choice-theory.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-17",
+   "words": 0,
+   "headings": []
+  }
+ ]
+}
