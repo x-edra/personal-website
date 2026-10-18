@@ -34,22 +34,15 @@
    "parent": "",
    "order": 2,
    "tags": [],
-   "status": "",
+   "status": "empty",
    "updated": "2026-10-17",
-   "words": 59,
+   "words": 0,
    "aliases": [
     "projects"
    ],
    "links": [],
    "backlinks": [],
-   "headings": [
-    "En curso",
-    "Plantilla recomendada",
-    "Objetivo",
-    "Diseño",
-    "Tareas",
-    "Evidencias y resultados"
-   ]
+   "headings": []
   },
   {
    "id": "study",
@@ -65,6 +58,25 @@
    "words": 0,
    "aliases": [
     "study"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/category-theory",
+   "kind": "field",
+   "title": "Category Theory",
+   "description": "",
+   "file": null,
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "",
+   "words": 0,
+   "aliases": [
+    "category-theory"
    ],
    "links": [],
    "backlinks": [],
@@ -192,6 +204,96 @@
    "updated": "2026-10-17",
    "words": 0,
    "headings": []
+  },
+  {
+   "id": "study/machine-learning",
+   "kind": "field",
+   "title": "Machine Learning",
+   "description": "",
+   "file": null,
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "",
+   "words": 0,
+   "aliases": [
+    "machine-learning"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/signal-&-systems",
+   "kind": "field",
+   "title": "Signals & Systems",
+   "description": "Representation of change, its transformations, and its interactions.",
+   "file": "docs/study/signal-&-systems/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-17",
+   "words": 0,
+   "aliases": [
+    "signal-&-systems"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/signal-&-systems/linear-modulation",
+   "kind": "note",
+   "title": "Modulación lineal: Tipología y optimización",
+   "parent": "study/signal-&-systems",
+   "aliases": [
+    "linear-modulation"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/signal-&-systems/linear-modulation.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "2026-10-17",
+   "words": 17,
+   "headings": [
+    "Introducción",
+    "Tipología",
+    "Métricas de rendimiento",
+    "Técnicas de optimización y compromisos",
+    "Aplicaciones",
+    "Bibliografía"
+   ]
+  },
+  {
+   "id": "study/signal-&-systems/signal-theory",
+   "kind": "note",
+   "title": "Señales y sistemas: representación generalizada del cambio y las interacciones",
+   "parent": "study/signal-&-systems",
+   "aliases": [
+    "signal-theory"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/signal-&-systems/signal-theory.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "2026-10-17",
+   "words": 24,
+   "headings": [
+    "Introducción",
+    "La representación de señales",
+    "Modelado de los sistemas",
+    "Interacciones",
+    "Propiedades estructurales",
+    "Generalización interdisciplinaria"
+   ]
   }
  ]
 }
