@@ -845,6 +845,46 @@
 
   window.addEventListener('hashchange', route);
 
+  // ---------------------------------------------------------------- frase del día
+
+  // Una frase por sesión del navegador, sin repetir la de la sesión anterior.
+  async function showQuote() {
+    const box = $('#sidebar-quote');
+    if (!box) return;
+
+    try {
+      const response = await fetch(new URL('quotes.json', document.baseURI), { cache: 'no-cache' });
+      const quotes = (await response.json()).filter((quote) => quote?.text);
+      if (!quotes.length) return;
+
+      const read = (store, key) => {
+        try { return store.getItem(key); } catch { return null; }
+      };
+      const write = (store, key, value) => {
+        try { store.setItem(key, value); } catch { /* almacenamiento bloqueado */ }
+      };
+
+      let index = Number.parseInt(read(sessionStorage, 'void.quote'), 10);
+
+      if (!(index >= 0 && index < quotes.length)) {
+        const last = Number.parseInt(read(localStorage, 'void.lastQuote'), 10);
+        index = Math.floor(Math.random() * quotes.length);
+        if (quotes.length > 1 && index === last) index = (index + 1) % quotes.length;
+
+        write(sessionStorage, 'void.quote', index);
+        write(localStorage, 'void.lastQuote', index);
+      }
+
+      const { text, author } = quotes[index];
+      box.querySelector('blockquote').textContent = text;
+      box.querySelector('figcaption').textContent = author || '';
+      box.querySelector('figcaption').hidden = !author;
+      box.hidden = false;
+    } catch (error) {
+      console.warn('quotes.json could not be loaded.', error);
+    }
+  }
+
   // ---------------------------------------------------------------- inicio
 
   async function init() {
@@ -874,5 +914,6 @@
     }
   }
 
+  showQuote();
   init();
 })();

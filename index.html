@@ -295,6 +295,39 @@
       letter-spacing: 0.05em;
     }
 
+    /* Frase bajo la imagen del sidebar: una distinta por sesión (quotes.json). */
+    .sidebar-quote {
+      margin: -8px 0 28px;
+      padding: 0 2px 0 12px;
+      border-left: 1px solid var(--gold-muted);
+    }
+
+    .sidebar-quote[hidden] {
+      display: none;
+    }
+
+    .sidebar-quote blockquote {
+      margin: 0;
+      color: var(--text-muted);
+      font-family: var(--serif);
+      font-size: 13px;
+      font-style: italic;
+      line-height: 1.6;
+    }
+
+    .sidebar-quote figcaption {
+      margin-top: 8px;
+      color: var(--text-dim);
+      font-family: var(--sans);
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .sidebar-quote figcaption::before {
+      content: "— ";
+    }
+
     .main-content {
       min-width: 0;
       min-height: 70vh;
@@ -842,6 +875,14 @@
         font-size: calc(var(--fs) * 0.875);
       }
 
+      .sidebar-quote blockquote {
+        font-size: calc(var(--fs) * 0.82);
+      }
+
+      .sidebar-quote figcaption {
+        font-size: calc(var(--fs) * 0.65);
+      }
+
       .nav-field,
       .page-path .meta-description {
         font-size: calc(var(--fs) * 0.82);
@@ -1078,6 +1119,10 @@
     <div class="sidebar-image">
     <img src="assets/buttons/2.jpg" alt="Archive illustration">
   </div>
+  <figure class="sidebar-quote" id="sidebar-quote" hidden>
+    <blockquote></blockquote>
+    <figcaption></figcaption>
+  </figure>
 </aside>
 
 
