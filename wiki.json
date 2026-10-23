@@ -26,6 +26,25 @@
    ]
   },
   {
+   "id": "img",
+   "kind": "section",
+   "title": "Img",
+   "description": "",
+   "file": null,
+   "parent": "",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "",
+   "words": 0,
+   "aliases": [
+    "img"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
    "id": "projects",
    "kind": "section",
    "title": "Projects",
@@ -67,19 +86,95 @@
    "id": "study/category-theory",
    "kind": "field",
    "title": "Category Theory",
-   "description": "",
-   "file": null,
+   "description": "Objects, arrows, and the structure shared across mathematics.",
+   "file": "docs/study/category-theory/index.md",
    "parent": "study",
    "order": null,
    "tags": [],
-   "status": "",
-   "updated": "",
+   "status": "empty",
+   "updated": "2026-10-23",
    "words": 0,
    "aliases": [
     "category-theory"
    ],
    "links": [],
    "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/communication-fundamentals",
+   "kind": "field",
+   "title": "Communication Fundamentals",
+   "description": "Modulation, multiplexing, and how information travels through a channel.",
+   "file": "docs/study/communication-fundamentals/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "communication-fundamentals"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/communication-fundamentals/demultiplexado-de-una-señal-en-frecuencia",
+   "kind": "note",
+   "title": "Introducción",
+   "parent": "study/communication-fundamentals",
+   "aliases": [
+    "demultiplexado-de-una-señal-en-frecuencia"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/communication-fundamentals/demultiplexado-de-una-señal-en-frecuencia.md",
+   "description": "Sean varias señales multiplexadas en el dominio de la frecuencia. Para aplicar la operación inversa, pueden utilizarse varias técnicas de demultiplexeación. A…",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "2026-10-23",
+   "words": 43,
+   "headings": []
+  },
+  {
+   "id": "study/cybersecurity",
+   "kind": "field",
+   "title": "Cybersecurity",
+   "description": "Standards, threats, and practices for protecting information systems.",
+   "file": "docs/study/cybersecurity/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "cybersecurity"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/cybersecurity/norma-27000",
+   "kind": "note",
+   "title": "Norma 27000",
+   "parent": "study/cybersecurity",
+   "aliases": [
+    "norma-27000"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/cybersecurity/norma-27000.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
    "headings": []
   },
   {
@@ -206,16 +301,35 @@
    "headings": []
   },
   {
-   "id": "study/machine-learning",
+   "id": "study/industrial-networks",
    "kind": "field",
-   "title": "Machine Learning",
-   "description": "",
-   "file": null,
+   "title": "Industrial Networks",
+   "description": "Fieldbuses, industrial protocols, and communication in automation systems.",
+   "file": "docs/study/industrial-networks/index.md",
    "parent": "study",
    "order": null,
    "tags": [],
-   "status": "",
-   "updated": "",
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "industrial-networks"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/machine-learning",
+   "kind": "field",
+   "title": "Machine Learning",
+   "description": "Models that learn patterns from data.",
+   "file": "docs/study/machine-learning/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
    "words": 0,
    "aliases": [
     "machine-learning"
@@ -225,16 +339,235 @@
    "headings": []
   },
   {
+   "id": "study/networks",
+   "kind": "field",
+   "title": "Networks",
+   "description": "How computers connect, address each other, and exchange data.",
+   "file": "docs/study/networks/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "networks"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/networks/ip",
+   "kind": "field",
+   "title": "IP",
+   "description": "The Internet Protocol: addressing, IPv4, and IPv6.",
+   "file": "docs/study/networks/ip/index.md",
+   "parent": "study/networks",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "ip"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/networks/ip/direccionamiento-ipv4",
+   "kind": "note",
+   "title": "TITULO",
+   "parent": "study/networks/ip",
+   "aliases": [
+    "direccionamiento-ipv4"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/networks/ip/direccionamiento-ipv4.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "2026-10-18",
+   "words": 24,
+   "headings": [
+    "Introducción",
+    "Segmentación de la Red",
+    "IPv4 UNicast, broadcast y multicast",
+    "Tipos de direcciones IPv4",
+    "Estructura de direcciones IPv4",
+    "Subredirificación de una red IPv4"
+   ]
+  },
+  {
+   "id": "study/networks/ip/ip",
+   "kind": "note",
+   "title": "El protocolo central: IP",
+   "parent": "study/networks/ip",
+   "aliases": [
+    "ip"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/networks/ip/ip.md",
+   "description": "Los estándares modernos que rigen la conectividad global de los sistemas computacionales se basa principalmente en unas pocas ideas centrales. Una de ellas,…",
+   "order": null,
+   "tags": [],
+   "status": "",
+   "updated": "2026-10-18",
+   "words": 85,
+   "headings": [
+    "Introducción",
+    "Bibliografía y Referencias"
+   ]
+  },
+  {
+   "id": "study/networks/ip/ipv4",
+   "kind": "note",
+   "title": "Ipv4",
+   "parent": "study/networks/ip",
+   "aliases": [
+    "ipv4"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/networks/ip/ipv4.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-18",
+   "words": 0,
+   "headings": []
+  },
+  {
+   "id": "study/networks/ip/ipv6",
+   "kind": "note",
+   "title": "Ipv6",
+   "parent": "study/networks/ip",
+   "aliases": [
+    "ipv6"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/networks/ip/ipv6.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-18",
+   "words": 0,
+   "headings": []
+  },
+  {
+   "id": "study/networks/ip/semantic-ip",
+   "kind": "note",
+   "title": "Semantic Ip",
+   "parent": "study/networks/ip",
+   "aliases": [
+    "semantic-ip"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/networks/ip/semantic-ip.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-18",
+   "words": 0,
+   "headings": []
+  },
+  {
+   "id": "study/neuroscience",
+   "kind": "field",
+   "title": "Neuroscience",
+   "description": "The nervous system, from neurons to cognition.",
+   "file": "docs/study/neuroscience/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "neuroscience"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/operating-systems",
+   "kind": "field",
+   "title": "Operating Systems",
+   "description": "Processes, threads, memory, and how the OS manages hardware.",
+   "file": "docs/study/operating-systems/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "operating-systems"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
+   "id": "study/operating-systems/threads",
+   "kind": "note",
+   "title": "Threads",
+   "parent": "study/operating-systems",
+   "aliases": [
+    "threads"
+   ],
+   "links": [],
+   "backlinks": [],
+   "file": "docs/study/operating-systems/threads.md",
+   "description": "",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-21",
+   "words": 0,
+   "headings": []
+  },
+  {
+   "id": "study/probability-theory",
+   "kind": "field",
+   "title": "Probability Theory",
+   "description": "Uncertainty, random variables, and the laws that govern chance.",
+   "file": "docs/study/probability-theory/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "probability-theory"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
+  },
+  {
    "id": "study/signal-&-systems",
    "kind": "field",
    "title": "Signals & Systems",
-   "description": "Representation of change, its transformations, and its interactions.",
+   "description": "Signals as carriers of information, and the systems that shape them.",
    "file": "docs/study/signal-&-systems/index.md",
    "parent": "study",
    "order": null,
    "tags": [],
    "status": "empty",
-   "updated": "2026-10-17",
+   "updated": "2026-10-23",
    "words": 0,
    "aliases": [
     "signal-&-systems"
@@ -294,6 +627,25 @@
     "Propiedades estructurales",
     "Generalización interdisciplinaria"
    ]
+  },
+  {
+   "id": "study/software-defined-radio",
+   "kind": "field",
+   "title": "Software-Defined Radio",
+   "description": "Radio systems implemented in software, with GNU Radio and SDR hardware.",
+   "file": "docs/study/software-defined-radio/index.md",
+   "parent": "study",
+   "order": null,
+   "tags": [],
+   "status": "empty",
+   "updated": "2026-10-23",
+   "words": 0,
+   "aliases": [
+    "software-defined-radio"
+   ],
+   "links": [],
+   "backlinks": [],
+   "headings": []
   }
  ]
 }

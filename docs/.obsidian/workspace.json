@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "fe309a4036766248",
+    "type": "split",
+    "children": [
+      {
+        "id": "957df1432c89e930",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbc5f9735b2e7655",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/signal-&-systems/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4cc80485d8a4241",
+    "type": "split",
+    "children": [
+      {
+        "id": "33dd0feb75d35712",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32a47f5fe8771b1e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "f293fa2b7559d4a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "cdabd5adbd1fb8e1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "20db847aac9291c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8d4f50f893bd9cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df1e4cffbdf68122",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "study/operating-systems/Threads.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "af3bfcec4af2795f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "study/operating-systems/Threads.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "97ca52b1a1367d2c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "75cc582c83a038c8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "dda1e1b28153bdcf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "study/operating-systems/Threads.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "fbc5f9735b2e7655",
+  "lastOpenFiles": [
+    "study/software-defined-radio/index.md",
+    "study/probability-theory/index.md",
+    "study/probability-theory",
+    "study/signal-&-systems/linear-modulation.md",
+    "study/signal-&-systems/index.md",
+    "study/communication-fundamentals/index.md",
+    "index.md",
+    "study/operating-systems/index.md",
+    "study/neuroscience/index.md",
+    "study/networks/ip/index.md",
+    "study/networks/index.md",
+    "study/industrial-networks/index.md",
+    "study/cybersecurity/index.md",
+    "study/category-theory/index.md",
+    "study/operating-systems/threads.md",
+    "study/networks/ip/direccionamiento-ipv4.md",
+    "study/networks/ip/semantic-ip.md",
+    "study/networks/ip/ipv6.md",
+    "study/networks/ip/ipv4.md",
+    "study/networks/ip/ip.md",
+    "study/networks/ip",
+    "study/signal-&-systems/signal-theory.md",
+    "study/communication-fundamentals/demultiplexado-de-una-señal-en-frecuencia.md",
+    "study/software-defined-radio",
+    "img",
+    "study/cybersecurity/norma-27000.md",
+    "study/neuroscience",
+    "study/cybersecurity",
+    "study/operating-systems/Threads.md",
+    "study/communication-fundamentals",
+    "study/machine-learning/index.md"
+  ]
+}
